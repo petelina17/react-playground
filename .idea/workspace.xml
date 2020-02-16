@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ead3894e-d7f0-43ea-b36d-8a7e1786a498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <updated>1581860778720</updated>
       <workItem from="1581860780334" duration="2778000" />
       <workItem from="1581865623700" duration="11199000" />
-      <workItem from="1581880425700" duration="1208000" />
+      <workItem from="1581880425700" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="npm script start">
       <created>1581863241798</created>
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581880323031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="responsivity">
+      <created>1581881792587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581881792587</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,13 +162,14 @@
     <MESSAGE value="section grow vertically" />
     <MESSAGE value="scroll fix, layout flexbox" />
     <MESSAGE value="images" />
-    <option name="LAST_COMMIT_MESSAGE" value="images" />
+    <MESSAGE value="responsivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsivity" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581880322872">
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581881792525">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581880322872" />
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581881792525" />
     <state x="1310" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1581861433327">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
