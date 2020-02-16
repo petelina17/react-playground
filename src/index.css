@@ -1,17 +1,7 @@
-html, body, #wrapper {
+html, body, body > div {
     height: 100%;
+    width: 100%;
     margin: 0;
     box-sizing: border-box;
 }
 
-#wrapper {
-    font-family: "Roboto Light", sans-serif;
-    max-width: 800px;
-    margin: auto;
-}
-
-@media (max-width: 800px) {
-    #wrapper {
-        font-size: 2em;
-    }
-}

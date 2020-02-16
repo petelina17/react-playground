@@ -10,3 +10,10 @@
 .title {
     text-shadow: 1px 1px #eeeeee;
 }
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+}

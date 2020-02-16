@@ -8,7 +8,9 @@ export interface SectionItemInfo {
 
 export default class SectionItem extends React.Component<SectionItemInfo, {}>{
     picture: CSSProperties = {
-        backgroundImage: `url(${this.props.image})`
+        backgroundImage: `url(${this.props.image})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
     };
 
     render() {
