@@ -10,6 +10,6 @@ html, body, #wrapper {
 
 @media (max-width: 800px) {
     #wrapper {
-        font-size: 3em;
+        font-size: 2em;
     }
 }
