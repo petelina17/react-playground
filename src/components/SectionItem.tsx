@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionItem.css';
 
 export interface SectionItemInfo {
     image: string,
@@ -8,7 +9,7 @@ export interface SectionItemInfo {
 export default class SectionItem extends React.Component<SectionItemInfo, {}>{
     render() {
         return (
-            <div>{this.props.title}</div>
+            <div className={'section'}>{this.props.title}</div>
         )
     }
 };
