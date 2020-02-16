@@ -4,5 +4,9 @@
     align-items: center;
     flex-grow: 1;
     font-size: 3rem;
+    margin-top: 3px;
+}
 
+.title {
+    text-shadow: 1px 1px #eeeeee;
 }

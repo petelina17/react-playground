@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {CSSProperties} from 'react';
 import './SectionItem.css';
 
 export interface SectionItemInfo {
@@ -7,9 +7,16 @@ export interface SectionItemInfo {
 }
 
 export default class SectionItem extends React.Component<SectionItemInfo, {}>{
+    picture: CSSProperties = {
+        backgroundImage: `url(${this.props.image})`
+    };
+
     render() {
         return (
-            <div className={'section'}>{this.props.title}</div>
+            <div className={'section'} style={this.picture}>
+                <div className={'title'}> {this.props.title}</div>
+            </div>
         )
     }
 };
+
