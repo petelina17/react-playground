@@ -1,0 +1,15 @@
+html, body, #wrapper {
+    height: 100%;
+}
+
+#wrapper {
+    font-family: "Roboto Light", sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    #wrapper {
+        font-size: 3em;
+    }
+}
