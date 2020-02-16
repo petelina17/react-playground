@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead3894e-d7f0-43ea-b36d-8a7e1786a498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tasya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hello.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hello.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hello.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -18,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -49,6 +53,9 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/components/Navbar.tsx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -74,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581860778720</updated>
       <workItem from="1581860780334" duration="2778000" />
-      <workItem from="1581865623700" duration="1622000" />
+      <workItem from="1581865623700" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="npm script start">
       <created>1581863241798</created>
@@ -83,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581863241798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix justify">
+      <created>1581868316914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581868316914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +118,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm script start" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm script start" />
+    <MESSAGE value="fix justify" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix justify" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581863241611">
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581868316702">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581863241611" />
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581868316702" />
     <state x="1310" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1581861433327">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>

@@ -1,7 +1,9 @@
 import * as React from 'react'
-import {Hello} from './Hello';
 import './app.css';
+import Layout from './Layout';
+import {CSSProperties} from 'react';
 
 export default function App() {
-    return <Hello compiler="TypeScript" framework="React" />
+    return <Layout />
 }
+
