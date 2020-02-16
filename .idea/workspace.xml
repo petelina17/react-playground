@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead3894e-d7f0-43ea-b36d-8a7e1786a498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SectionItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionItem.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581860778720</updated>
       <workItem from="1581860780334" duration="2778000" />
-      <workItem from="1581865623700" duration="7316000" />
+      <workItem from="1581865623700" duration="8222000" />
     </task>
     <task id="LOCAL-00001" summary="npm script start">
       <created>1581863241798</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581875161189</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="section grow vertically">
+      <created>1581876727284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581876727284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,13 +128,14 @@
     <MESSAGE value="npm script start" />
     <MESSAGE value="fix justify" />
     <MESSAGE value="Navbar, Content, SectionItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar, Content, SectionItem" />
+    <MESSAGE value="section grow vertically" />
+    <option name="LAST_COMMIT_MESSAGE" value="section grow vertically" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581875161068">
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581876727161">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581875161068" />
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581876727161" />
     <state x="1310" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1581861433327">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
