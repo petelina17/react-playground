@@ -1,13 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from './Navbar';
-import Content from './Content';
 import './Layout.css';
+import ViewContainer from './ViewContainer'
 
-export default class Layout extends React.Component {
+interface Props {}
+interface State {
+    currentView: string
+}
+
+
+export default class Layout extends Component<Props, State> {
+
+    state = {
+        currentView: ''
+    };
+
+    setView = (view: string) => {
+        this.setState({ currentView: view });
+    }
+
     render() {
         return <div id={'layout'}>
             <Navbar />
-            <Content />
+            <ViewContainer currentView={this.state.currentView} onViewSelected={this.setView}/>
         </div>;
     }
 }

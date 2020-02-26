@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead3894e-d7f0-43ea-b36d-8a7e1786a498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/MasterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ViewContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SectionItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/desert.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/desert.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/forest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/forest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sky.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +21,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1XtM8dfVybWd7Z6oXbmatwlXxqS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,24 +55,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/img" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/components/Navbar.tsx" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,7 +97,13 @@
       <updated>1581860778720</updated>
       <workItem from="1581860780334" duration="2778000" />
       <workItem from="1581865623700" duration="11199000" />
-      <workItem from="1581880425700" duration="1452000" />
+      <workItem from="1581880425700" duration="5670000" />
+      <workItem from="1582013796718" duration="1808000" />
+      <workItem from="1582186148543" duration="1872000" />
+      <workItem from="1582486623377" duration="1424000" />
+      <workItem from="1582491581568" duration="20000" />
+      <workItem from="1582705841236" duration="5145000" />
+      <workItem from="1582740210125" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="npm script start">
       <created>1581863241798</created>
@@ -131,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581881792587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="background color">
+      <created>1581881949796</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581881949796</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,16 +193,18 @@
     <MESSAGE value="scroll fix, layout flexbox" />
     <MESSAGE value="images" />
     <MESSAGE value="responsivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsivity" />
+    <MESSAGE value="background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="background color" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581881792525">
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581881949685">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581881792525" />
-    <state x="1310" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1581861433327">
-      <screen x="960" y="0" width="1920" height="1080" />
+    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581881949685" />
+    <state x="350" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1582187261644">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="350" y="305" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582187261644" />
     <state x="1310" y="305" width="424" height="474" key="FileChooserDialogImpl/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581861433327" />
     <state width="1128" height="308" key="GridCell.Tab.0.bottom" timestamp="1581880395815">
       <screen x="960" y="0" width="1920" height="1080" />
@@ -194,9 +226,17 @@
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
     <state x="1477" y="282" width="1213" height="720" key="SettingsEditor/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581862751350" />
-    <state x="1122" y="284" width="800" height="515" key="Vcs.Push.Dialog.v2" timestamp="1581877576450">
+    <state x="1122" y="284" width="800" height="515" key="Vcs.Push.Dialog.v2" timestamp="1581881959369">
       <screen x="960" y="0" width="1920" height="1080" />
     </state>
-    <state x="1122" y="284" width="800" height="515" key="Vcs.Push.Dialog.v2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581877576450" />
+    <state x="1122" y="284" width="800" height="515" key="Vcs.Push.Dialog.v2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581881959369" />
+    <state x="2764" y="906" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1582743571058">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2764" y="906" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup/1920.0.3840.2160/0.1080.1920.1080@1920.0.3840.2160" timestamp="1582743571058" />
+    <state x="2501" y="501" width="840" height="1034" key="search.everywhere.popup" timestamp="1582745940670">
+      <screen x="1920" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2501" y="501" width="840" height="1034" key="search.everywhere.popup/1920.0.3840.2160/0.1080.1920.1080@1920.0.3840.2160" timestamp="1582745940670" />
   </component>
 </project>

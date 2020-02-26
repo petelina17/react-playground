@@ -1,9 +1,9 @@
 import React from 'react';
 import SectionItem from './SectionItem';
 import './Content.css';
-import forest from '../img/forest.jpg';
-import sky from '../img/sky.jpg';
-import desert from '../img/desert.jpg'
+import forest from '../../img/forest.jpg';
+import sky from '../../img/sky.jpg';
+import desert from '../../img/desert.jpg'
 
 export default function Content() {
     return (
@@ -14,4 +14,3 @@ export default function Content() {
         </div>
     )
 };
-

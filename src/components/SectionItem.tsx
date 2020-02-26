@@ -3,22 +3,24 @@ import './SectionItem.css';
 
 export interface SectionItemInfo {
     image: string,
-    title: string
+    title: string,
+    onClick: (id: string) => void;
 }
 
-export default class SectionItem extends React.Component<SectionItemInfo, {}>{
-    picture: CSSProperties = {
-        backgroundImage: `url(${this.props.image})`,
+export default function SectionItem(props: SectionItemInfo) {
+    const picture: CSSProperties = {
+        backgroundImage: `url(../img/${props.image}.jpg)`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
     };
 
-    render() {
-        return (
-            <div className={'section'} style={this.picture}>
-                <div className={'title'}> {this.props.title}</div>
+    const onClick = () => props.onClick(props.image)
+
+    return (
+            <div className={'section'} style={picture} onClick={onClick}>
+                <div className={'title'}> {props.title}</div>
             </div>
         )
-    }
+
 };
 
