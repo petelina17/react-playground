@@ -1,9 +1,13 @@
 import React, {CSSProperties} from 'react';
 
-export default function Navbar() {
+interface Props {
+    onHeaderClick: () => void;
+}
+
+export default function Navbar(props: Props) {
     return (
         <div style={header}>
-            <h1 style={headerItem}>React Playground</h1>
+            <h1 style={headerItem} onClick={props.onHeaderClick}>React Playground</h1>
         </div>
     );
 }

@@ -1,16 +1,19 @@
 import React from 'react';
 import SectionItem from './SectionItem';
 import './Content.css';
-import forest from '../../img/forest.jpg';
-import sky from '../../img/sky.jpg';
-import desert from '../../img/desert.jpg'
 
-export default function Content() {
+interface Props {
+    detailViews: string[]
+    onDetaleViewSelected: (view: string) => void;
+}
+
+export default function Content(props: Props) {
     return (
         <div id={'content'}>
-            <SectionItem image={forest} title={'forest'}/>
-            <SectionItem image={sky} title={'sky'}/>
-            <SectionItem image={desert} title={'desert'}/>
+            {
+                props.detailViews.map((item: string) =>
+                    <SectionItem image={item} title={item} onClick={props.onDetaleViewSelected} />)
+            }
         </div>
     )
 };

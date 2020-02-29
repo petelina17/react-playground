@@ -14,7 +14,10 @@ export default function SectionItem(props: SectionItemInfo) {
         backgroundSize: 'cover'
     };
 
-    const onClick = () => props.onClick(props.image)
+    const onClick = function () {
+        console.log('SectionItem.click on ' + props.title)
+        props.onClick(props.image)
+    }
 
     return (
             <div className={'section'} style={picture} onClick={onClick}>

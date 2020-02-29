@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead3894e-d7f0-43ea-b36d-8a7e1786a498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MasterView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ViewContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MasterView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SectionItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/desert.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/desert.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/forest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/forest.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ViewContainer.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +102,9 @@
       <workItem from="1582486623377" duration="1424000" />
       <workItem from="1582491581568" duration="20000" />
       <workItem from="1582705841236" duration="5145000" />
-      <workItem from="1582740210125" duration="6723000" />
+      <workItem from="1582740210125" duration="18715000" />
+      <workItem from="1582997462280" duration="73000" />
+      <workItem from="1582997549665" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="npm script start">
       <created>1581863241798</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581881949796</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wip: react navigation state">
+      <created>1582759223648</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582759223648</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,12 +202,14 @@
     <MESSAGE value="images" />
     <MESSAGE value="responsivity" />
     <MESSAGE value="background color" />
-    <option name="LAST_COMMIT_MESSAGE" value="background color" />
+    <MESSAGE value="wip: react navigation state" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip: react navigation state" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2" timestamp="1581881949685">
-      <screen x="960" y="0" width="1920" height="1080" />
+    <state x="2254" y="268" width="790" height="817" key="CommitChangelistDialog2" timestamp="1582759223165">
+      <screen x="1920" y="0" width="3840" height="2160" />
     </state>
+    <state x="2254" y="268" key="CommitChangelistDialog2/1920.0.3840.2160/0.1080.1920.1080@1920.0.3840.2160" timestamp="1582759223165" />
     <state x="1127" y="134" width="790" height="817" key="CommitChangelistDialog2/960.0.1920.1080/0.540.960.540@960.0.1920.1080" timestamp="1581881949685" />
     <state x="350" y="305" width="424" height="474" key="FileChooserDialogImpl" timestamp="1582187261644">
       <screen x="0" y="0" width="1920" height="1080" />
