@@ -1,9 +1,13 @@
-import * as React from 'react'
-import './app.css';
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import Layout from './Layout';
-import {CSSProperties} from 'react';
+import './app.css';
 
 export default function App() {
-    return <Layout />
+    return (
+        <BrowserRouter>
+            <Layout/>
+        </BrowserRouter>
+    )
 }
 
