@@ -3,11 +3,13 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es5",
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib":["es2015","dom"]
   },
   "include": [
     "./src/**/*"

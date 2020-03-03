@@ -1,5 +1,15 @@
 module.exports = {
     mode: "development",
+    entry: "./src/index.tsx",
+    output: {
+        filename: "main.bundle.js",
+        path: __dirname + "/dist",
+        publicPath: 'dist/',
+        chunkFilename: '[name].bundle.js',
+    },
+    optimization: {
+        splitChunks: {chunks: 'all'}
+    },
 
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",

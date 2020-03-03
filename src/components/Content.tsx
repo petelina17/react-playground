@@ -7,6 +7,7 @@ export default function Content() {
     return (
         <div id={'content'}>
             <Link to="/forest" style={link}>
+
                 <SectionItem image={'forest'} title={'forest'}/>
             </Link>
             <Link to="/sky" style={link}>
